@@ -17,3 +17,22 @@ _pom.xml_
 			</exclusions>
 		</dependency>
 ```
+
+<br>
+_resource server usage_
+<br>
+
+```
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@Import({UnifiedAuthenticationServiceResourceServerApplication.class})
+public class TheApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(TheApplication.class, args);
+	}
+
+}
+```
