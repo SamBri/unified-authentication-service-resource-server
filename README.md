@@ -5,7 +5,7 @@ can be added as so
 <br>
 
 ```
-<dependency>
+		<dependency>
 			<groupId>com.nothing</groupId>
 			<artifactId>
 				unified-authentication-service-resource-server
@@ -18,5 +18,4 @@ can be added as so
 				</exclusion>
 			</exclusions>
 		</dependency>
-	</dependencies>
 ```
