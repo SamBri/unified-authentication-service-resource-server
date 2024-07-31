@@ -19,8 +19,8 @@ _pom.xml_
 ```
 
 <br>
+
 _resource server usage_
-<br>
 
 ```
 import org.springframework.boot.SpringApplication;
